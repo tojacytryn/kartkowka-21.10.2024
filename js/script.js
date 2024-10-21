@@ -29,10 +29,12 @@ function three(){
     const button = document.createElement("button");
     button.textContent = "Stwórz"
     const inputWidth = document.createElement("input");
+    inputWidth.setAttribute("placeholder", "Szerokość");
     const inputHeight = document.createElement("input");
-    document.body.appendChild(button);
+    inputHeight.setAttribute("placeholder", "Wysokość");
     document.body.appendChild(inputWidth);
     document.body.appendChild(inputHeight);
+    document.body.appendChild(button);
     const div = document.createElement("div")
     div.style.border = "2px solid black"
 
